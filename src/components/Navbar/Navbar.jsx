@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>Product</li>
                 <li>Contact</li>
               
-                <button className="bg-gradient-to-r from-[#BB47A6] to-[#4E6DD8] px-3 py-1.5 rounded-lg">BILD NOW</button>
+                <button className="bg-gradient-to-r from-[#BB47A6] to-[#4E6DD8] px-3 py-1.5 rounded-lg">Get started</button>
             </ul>
            
         </div>

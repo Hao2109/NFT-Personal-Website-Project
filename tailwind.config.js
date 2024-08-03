@@ -10,6 +10,7 @@ export default {
         Montserrat:["Monsterrat"]
       }
     },
+    
   },
   plugins: [],
 }
