@@ -1,5 +1,7 @@
 import Bundle from "../Bundle/Bundle"
 import Card from "../Card/Card"
+import Community from "../Comunity/Community"
+import Creators from "../Creators/Creators"
 import Landing from "../Landing/Landing"
 import Navbar from "../Navbar/Navbar"
 import Products from "../Products/Products"
@@ -13,6 +15,8 @@ const Home = () => {
       <Card/>
       <Bundle/>
       <Products/>
+      <Creators/>
+      <Community/>
     </div>
   )
 }
