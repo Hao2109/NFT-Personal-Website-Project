@@ -1,0 +1,102 @@
+[
+    {
+    "image": "avt-1.jpg",
+    "name": "Harry Potter",
+    "value": 15467
+},
+{
+    "image": "avt-2.jpg",
+    "name": "Hermione Granger",
+    "value": 16234
+},
+{
+    "image": "avt-3.jpg",
+    "name": "Ron Weasley",
+    "value": 14856
+},
+{
+    "image": "avt-4.jpg",
+    "name": "Albus Dumbledore",
+    "value": 17543
+},
+{
+    "image": "avt-5.jpg",
+    "name": "Severus Snape",
+    "value": 15321
+},
+{
+    "image": "avt-6.jpg",
+    "name": "Rubeus Hagrid",
+    "value": 14213
+},
+{
+    "image": "avt-7.jpg",
+    "name": "Sirius Black",
+    "value": 16548
+},
+{
+    "image": "avt-8.jpg",
+    "name": "Remus Lupin",
+    "value": 15267
+},
+{
+    "image": "avt-9.jpg",
+    "name": "Minerva McGonagall",
+    "value": 15893
+},
+{
+    "image": "avt-10.jpg",
+    "name": "Draco Malfoy",
+    "value": 14789
+},
+{
+    "image": "avt-11.jpg",
+    "name": "Neville Longbottom",
+    "value": 14123
+},
+{
+    "image": "avt-12.jpg",
+    "name": "Luna Lovegood",
+    "value": 14456
+},
+{
+    "image": "avt-13.jpg",
+    "name": "Ginny Weasley",
+    "value": 14876
+},
+{
+    "image": "avt-14.jpg",
+    "name": "Fred Weasley",
+    "value": 14987
+},
+{
+    "image": "avt-15.jpg",
+    "name": "George Weasley",
+    "value": 14988
+},
+{
+    "image": "avt-16.jpg",
+    "name": "Cho Chang",
+    "value": 14256
+},
+{
+    "image": "avt-17.jpg",
+    "name": "Cedric Diggory",
+    "value": 14567
+},
+{
+    "image": "avt-18.jpg",
+    "name": "Fleur Delacour",
+    "value": 14321
+},
+{
+    "image": "avt-19.jpg",
+    "name": "Viktor Krum",
+    "value": 14098
+},
+{
+    "image": "avt-20.jpg",
+    "name": "Bellatrix Lestrange",
+    "value": 15732
+}
+]
