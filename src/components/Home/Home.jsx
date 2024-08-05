@@ -1,24 +1,25 @@
-import Bundle from "../Bundle/Bundle"
-import Card from "../Card/Card"
-import Community from "../Comunity/Community"
-import Creators from "../Creators/Creators"
-import Landing from "../Landing/Landing"
-import Navbar from "../Navbar/Navbar"
-import Products from "../Products/Products"
-
+import Bundle from "../Bundle/Bundle";
+import Card from "../Card/Card";
+import Community from "../Comunity/Community";
+import Creators from "../Creators/Creators";
+import Footer from "../Footer/Footer";
+import Landing from "../Landing/Landing";
+import Navbar from "../Navbar/Navbar";
+import Products from "../Products/Products";
 
 const Home = () => {
   return (
     <div className="overflow-hidden bg-[#0A0F29]">
-      <Navbar/>
-      <Landing/>
-      <Card/>
-      <Bundle/>
-      <Products/>
-      <Creators/>
-      <Community/>
+      <Navbar />
+      <Landing />
+      <Card />
+      <Bundle />
+      <Products />
+      <Creators />
+      <Community />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
