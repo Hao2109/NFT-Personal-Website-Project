@@ -1,0 +1,59 @@
+[
+    {
+        "image": "item1.jpg",
+        "name": "Hermione Granger",
+        "creator": "Harry Potter",
+        "eth": "1.42 ETH",
+        "usd": "2.343 USD"
+    },
+    {
+        "image": "item2.jpg",
+        "name": "Ron Weasley",
+        "creator": "Hermione Granger",
+        "eth": "2.50 ETH",
+        "usd": "4.123 USD"
+    },
+    {
+        "image": "item3.jpg",
+        "name": "Albus Dumbledore",
+        "creator": "Ron Weasley",
+        "eth": "0.95 ETH",
+        "usd": "1.755 USD"
+    },
+    {
+        "image": "item4.jpg",
+        "name": "Severus Snape",
+        "creator": "Albus Dumbledore",
+        "eth": "3.10 ETH",
+        "usd": "6.342 USD"
+    },
+    {
+        "image": "item5.jpg",
+        "name": "Draco Malfoy",
+        "creator": "Severus Snape",
+        "eth": "1.85 ETH",
+        "usd": "3.123 USD"
+    },
+    {
+        "image": "item6.jpg",
+        "name": "Sirius Black",
+        "creator": "Draco Malfoy",
+        "eth": "0.75 ETH",
+        "usd": "1.234 USD"
+    },
+    {
+        "image": "item7.jpg",
+        "name": "Remus Lupin",
+        "creator": "Sirius Black",
+        "eth": "2.00 ETH",
+        "usd": "4.567 USD"
+    },
+    {
+        "image": "item8.jpg",
+        "name": "Bellatrix Lestrange",
+        "creator": "Remus Lupin",
+        "eth": "1.25 ETH",
+        "usd": "2.789 USD"
+    }
+ 
+]
