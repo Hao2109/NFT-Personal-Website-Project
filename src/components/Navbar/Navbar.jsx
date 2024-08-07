@@ -1,23 +1,62 @@
-import Logo from "../../assets/Images/nft.png";
-const Navbar = () => {
-  return (
-    <div className="w-full h-20 font-Montserrat flex justify-between text-white ">
-      <div className=" h-full w-52 flex justify-end items-center">
-        <img src={Logo} alt="" className="w-12 h-12" />
-        <p className="text-3xl font-bold">Galaxy</p>
-      </div>
-      <div className="w-[35%] mr-14 flex justify-around h-full">
-        <ul className="flex justify-evenly w-full h-full items-center text-lg font-semibold">
-          <li>Home</li>
-          <li>Feature</li>
-          <li>Product</li>
-          <li>Contact</li>
+import { useState } from "react";
+import { BiMenu, BiXCircle } from "react-icons/bi";
 
-          <button className="bg-gradient-to-r from-[#BB47A6] to-[#4E6DD8] px-3 py-1.5 rounded-lg">
-            Get started
-          </button>
-        </ul>
-      </div>
+const Navbar = () => {
+  const [active, setActive] = useState(true);
+  return (
+    <div>
+      <nav className="bg-white px-2 sm:px-2 py-2.5">
+        <div className="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="" className="text-xl font-bold line-through">
+            ED
+          </a>
+          <div className="flex md:order-2 md:hidden">
+            <button type="button" onClick={() => setActive(!active)}>
+              {active ? <BiMenu size={30} /> : <BiXCircle size={30} />}
+            </button>
+          </div>
+          <div
+            className={`${
+              active ? "hidden " : ""
+            }justify-between items-center w-full md:flex md:w-auto md:order-1`}
+          >
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-2xl">
+              <li className="py-2 md:py-0">
+                <a
+                  href=""
+                  className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"
+                >
+                  Explore
+                </a>
+              </li>
+              <li className="py-2 md:py-0">
+                <a
+                  href=""
+                  className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"
+                >
+                  Resources
+                </a>
+              </li>
+              <li className="py-2 md:py-0">
+                <a
+                  href=""
+                  className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"
+                >
+                  Creators
+                </a>
+              </li>
+              <li className="py-2 md:py-0">
+                <a
+                  href=""
+                  className="py-4 pr-6 pl-0 hover:opacity-80 transition-all"
+                >
+                  Button
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 };
