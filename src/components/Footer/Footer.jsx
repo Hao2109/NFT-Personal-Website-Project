@@ -32,7 +32,10 @@ const Footer = () => {
               <p>Partners</p>
             </div>
             <div className="col-span-2 md:col-span-1 flex flex-col items-center md:items-start">
-              <h2 className="font-bold text-2xl">Subscribe</h2>
+              <h2 className="font-bold text-2xl">Newsletter</h2>
+              <p className="mt-6">
+                Sign up and receive the latest tips via email.
+              </p>
               <button className="bg-transparent hover:bg-gradient-to-r from-[#4E6DD8] to-[#BB47A6] mt-6 py-3 px-8 rounded-full font-bold hover:border-none border transition-all flex items-center gap-2">
                 Get NFT Updates <FaArrowRight />
               </button>
