@@ -19,3 +19,35 @@
 *::-webkit-scrollbar-thumb {
   background: linear-gradient(#bb47a6, #4e6dd8);
 }
+/* Hero.css */
+@keyframes moveHorizontally {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 40px;
+  }
+}
+
+.animate-horizontal {
+  position: relative;
+  animation: moveHorizontally 3s infinite alternate;
+}
+.gradient-border {
+  background: linear-gradient(to right, #bb47a6, #4e6dd8);
+  padding: 2px; /* Chiều rộng của viền */
+  border-radius: 8px; /* Bo góc của viền */
+  position: relative; /* Đặt vị trí tương đối để chứa pseudo-element */
+}
+
+.gradient-border::before {
+  content: "";
+  background: #1a1a1a; /* Màu nền của button */
+  display: block;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  border-radius: 6px; /* Bo góc bên trong (giảm 2px so với bên ngoài) */
+}
